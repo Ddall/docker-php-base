@@ -1,8 +1,6 @@
 # See https://github.com/docker-library/php/blob/master/7.1/fpm/Dockerfile
 FROM php:7.1-fpm
-ARG TIMEZONE
-
-MAINTAINER Allan IRDEL <allan.irdel@gmail.com>
+ARG TIMEZONE="Europe/Paris"
 
 RUN apt-get update && apt-get install -y \
     unzip \
