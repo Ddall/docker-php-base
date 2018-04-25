@@ -10,6 +10,7 @@ RUN apt-get update && apt-get install -y \
     zlib1g-dev \
     libicu-dev \
     g++ \
+	sudo \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Composer
