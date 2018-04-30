@@ -4,6 +4,7 @@ ARG TIMEZONE="Europe/Paris"
 
 RUN apt-get update && apt-get install -y \
 	git \
+	ssh \
     unzip \
     libxml2-dev \
     libxslt-dev \
