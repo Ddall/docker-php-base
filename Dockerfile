@@ -3,8 +3,8 @@ FROM php:7.1-fpm
 ARG TIMEZONE="Europe/Paris"
 
 RUN apt-get update && apt-get install -y \
-	git \
-	ssh \
+    git \
+    ssh \
     unzip \
     libxml2-dev \
     libxslt-dev \
