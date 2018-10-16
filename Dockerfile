@@ -30,5 +30,8 @@ RUN "date"
 RUN docker-php-ext-install xsl json intl opcache
 
 RUN echo 'alias sf="php bin/console"' >> ~/.bashrc
+RUN echo 'alias ll="ls -alF"' >> ~/.bashrc
+RUN echo 'alias la="ls -A"' >> ~/.bashrc
+RUN echo 'alias l="ls -CF"' >> ~/.bashrc
 
 WORKDIR /var/www/symfony
